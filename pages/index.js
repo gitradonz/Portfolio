@@ -7,8 +7,10 @@ export default function Home() {
       <NextHead />
       <Header />
       <div>
-        <h1 className="h-30rem">Hello Next.js</h1>
-        <h1 className="h-30rem">Hello Next.js</h1>
+        <div className="h-30rem flex justify-content-center">Hello Next.js</div>
+        <h1 className="h-30rem flex justify-content-center bg-yellow-50">
+          Hello Next.js
+        </h1>
         <h1 className="h-30rem">Hello Next.js</h1>
         <h1 className="h-100">Hello Next.js</h1>
       </div>
