@@ -1,3 +1,4 @@
+// JUNGLE
 import { useRef } from "react";
 import Link from "next/link";
 import { Ripple } from "primereact/ripple";
@@ -48,19 +49,23 @@ const Header = () => {
       <div className="align-items-center flex-grow-1 justify-content-between hidden lg:flex absolute lg:static w-full left-0 top-100 z-1 shadow-2 lg:shadow-none h-3rem">
         <ul className="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row">
           <li>
-            <a className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-200 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full">
-              <i className="pi pi-user mr-2"></i>
-              <span>About</span>
-              <Ripple />
-            </a>
+            <Link href="/about">
+              <a className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-200 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full">
+                <i className="pi pi-user mr-2"></i>
+                <span>About</span>
+                <Ripple />
+              </a>
+            </Link>
           </li>
 
           <li>
-            <a className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-200 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full">
-              <i className="pi pi-briefcase mr-2"></i>
-              <span>Projects</span>
-              <Ripple />
-            </a>
+            <Link href="/projects">
+              <a className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-200 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full">
+                <i className="pi pi-briefcase mr-2"></i>
+                <span>Projects</span>
+                <Ripple />
+              </a>
+            </Link>
           </li>
           <li>
             <Link href="/contact">
