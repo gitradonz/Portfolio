@@ -1,12 +1,11 @@
-import Header from "../components/Header";
+import MotionWrapper from "../components/MotionWrapper";
 
 const Contact = () => {
-  return (
-    <>
-      <Header />
-      CONTACT
-    </>
-  );
+	return (
+		<MotionWrapper>
+			<div>CONTACT</div>
+		</MotionWrapper>
+	);
 };
 
 export default Contact;

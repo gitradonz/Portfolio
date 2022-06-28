@@ -1,8 +1,8 @@
 import "../styles/globals.css";
-import { AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import NextHead from "../components/NextHead";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
-
 // PrimeReact imports
 import PrimeReact from "primereact/api";
 import "primereact/resources/themes/lara-light-teal/theme.css"; // primetheme
@@ -11,16 +11,27 @@ import "primeicons/primeicons.css"; // primeicons
 import "primeflex/primeflex.css"; // primeflex
 PrimeReact.ripple = true;
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
 	return (
 		<>
 			<NextHead />
-			<AnimatePresence
-				exitBeforeEnter={true}
-				initial={false}
-				// onExitComplete={() => window.scrollTo(0, 0)}
-			>
-				<Component {...pageProps} />
+			<Header />
+			<AnimatePresence exitBeforeEnter={true}>
+				<motion.main
+					key={router.route}
+					initial="initial"
+					animate="animate"
+					variants={{
+						initial: {
+							opacity: 0,
+						},
+						animate: {
+							opacity: 1,
+						},
+					}}
+				>
+					<Component {...pageProps} />
+				</motion.main>
 			</AnimatePresence>
 			<Footer />
 		</>

@@ -1,12 +1,7 @@
-import Header from "../components/Header";
+import MotionWrapper from "../components/MotionWrapper";
 
 const Projects = () => {
-  return (
-    <>
-      <Header />
-      Projects
-    </>
-  );
+	return <MotionWrapper>Projects</MotionWrapper>;
 };
 
 export default Projects;

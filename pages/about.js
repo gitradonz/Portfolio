@@ -1,12 +1,11 @@
-import Header from "../components/Header";
+import MotionWrapper from "../components/MotionWrapper";
 
 const About = () => {
-  return (
-    <>
-      <Header />
-      About
-    </>
-  );
+	return (
+		<MotionWrapper>
+			<div>About</div>
+		</MotionWrapper>
+	);
 };
 
 export default About;
