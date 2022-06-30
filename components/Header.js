@@ -10,7 +10,7 @@ const Header = () => {
 	const btnBars = useRef(null);
 
 	return (
-		<div className="sticky py-3 px-3 shadow-2 flex align-items-center justify-content-between sticky top-0 h-3rem bg-yellow-200 headerBlur z-5">
+		<div className="sticky py-3 px-3 shadow-2 flex align-items-center justify-content-between top-0 h-3rem bg-yellow-200 headerBlur z-5">
 			{/* BUTTON MENU */}
 			<motion.div
 				whileHover={{ scale: 1.3 }}
@@ -47,30 +47,39 @@ const Header = () => {
 				<ul className="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row">
 					<li>
 						<Link href="/about">
-							<a className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full bg-yellow-200">
+							<motion.a
+								whileTap={{ scale: 0.9 }}
+								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full bg-yellow-200"
+							>
 								<i className="pi pi-user mr-2"></i>
 								<span>About</span>
 								<Ripple />
-							</a>
+							</motion.a>
 						</Link>
 					</li>
 
 					<li>
 						<Link href="/projects">
-							<a className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full bg-yellow-200">
+							<motion.a
+								whileTap={{ scale: 0.9 }}
+								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full bg-yellow-200"
+							>
 								<i className="pi pi-briefcase mr-2"></i>
 								<span>Projects</span>
 								<Ripple />
-							</a>
+							</motion.a>
 						</Link>
 					</li>
 					<li>
 						<Link href="/contact">
-							<a className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full bg-yellow-200">
+							<motion.a
+								whileTap={{ scale: 0.9 }}
+								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full bg-yellow-200"
+							>
 								<i className="pi pi-envelope mr-2"></i>
 								<span>Contact</span>
 								<Ripple />
-							</a>
+							</motion.a>
 						</Link>
 					</li>
 				</ul>
