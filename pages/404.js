@@ -10,7 +10,7 @@ export default function FourOhFour() {
 					</span>
 				</div>
 				<div className="mt-6 mb-5 font-bold text-6xl text-900">Page Not Found</div>
-				<p className="text-700 text-3xl mt-0 mb-6">This page doesn't exist.</p>
+				<p className="text-700 text-3xl mt-0 mb-6">This page doesn&apos;t exist.</p>
 
 				<ul className="list-none px-0 pb-0 pt-4 m-0 border-top-1 surface-border">
 					<li className="py-2">
