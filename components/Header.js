@@ -10,7 +10,7 @@ const Header = () => {
 	const btnBars = useRef(null);
 
 	return (
-		<div className=" py-3 px-3 shadow-2 flex align-items-center justify-content-between sticky top-0 h-3rem bg-yellow-200 headerBlur">
+		<div className="sticky py-3 px-3 shadow-2 flex align-items-center justify-content-between sticky top-0 h-3rem bg-yellow-200 headerBlur z-5">
 			{/* BUTTON MENU */}
 			<motion.div
 				whileHover={{ scale: 1.3 }}

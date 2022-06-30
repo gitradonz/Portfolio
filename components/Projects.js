@@ -11,7 +11,11 @@ const Projects = () => {
 				inView={{ opacity: 1 }}
 			/>
 			<SectionGrid />
-			<motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+			<motion.div
+				initial={{ opacity: 0 }}
+				whileInView={{ opacity: 1 }}
+				transition={{ duration: 0.7 }}
+			>
 				<h1 className="h-100">Hello Next.js</h1>
 			</motion.div>
 		</div>
