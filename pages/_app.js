@@ -11,6 +11,12 @@ import "primeicons/primeicons.css"; // primeicons
 import "primeflex/primeflex.css"; // primeflex
 PrimeReact.ripple = true;
 
+const variants = {
+	initial: { x: "120%" },
+	animate: { x: 0 },
+	exit: { x: "-120%" },
+};
+
 function MyApp({ Component, pageProps, router }) {
 	return (
 		<>
@@ -21,14 +27,9 @@ function MyApp({ Component, pageProps, router }) {
 					key={router.route}
 					initial="initial"
 					animate="animate"
-					variants={{
-						initial: {
-							opacity: 0,
-						},
-						animate: {
-							opacity: 1,
-						},
-					}}
+					exit="exit"
+					variants={variants}
+					transition={{ type: "spring", duration: 0.5 }}
 				>
 					<Component {...pageProps} />
 				</motion.main>

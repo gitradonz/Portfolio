@@ -1,7 +1,7 @@
-import MotionWrapper from "../components/MotionWrapper";
+import Projects from "../components/Projects";
 
-const Projects = () => {
-	return <MotionWrapper>Projects</MotionWrapper>;
+const ProjectsPage = () => {
+	return <Projects />;
 };
 
-export default Projects;
+export default ProjectsPage;

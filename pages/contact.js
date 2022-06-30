@@ -1,10 +1,11 @@
-import MotionWrapper from "../components/MotionWrapper";
+import Projects from "../components/Projects";
 
 const Contact = () => {
 	return (
-		<MotionWrapper>
-			<div>CONTACT</div>
-		</MotionWrapper>
+		<div>
+			CONTACT
+			<Projects />
+		</div>
 	);
 };
 
