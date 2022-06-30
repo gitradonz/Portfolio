@@ -4,13 +4,12 @@ import Link from "next/link";
 import { Ripple } from "primereact/ripple";
 import { StyleClass } from "primereact/styleclass";
 import { motion } from "framer-motion";
-import Char360 from "./char360";
 
 const Header = () => {
 	const btnBars = useRef(null);
 
 	return (
-		<div className="sticky py-3 px-3 shadow-2 flex align-items-center justify-content-between top-0 h-3rem bg-yellow-200 headerBlur z-5">
+		<div className="sticky py-3 px-3 shadow-2 flex align-items-center justify-content-between top-0 h-3rem headerGlobal z-5">
 			{/* BUTTON MENU */}
 			<motion.div
 				whileHover={{ scale: 1.3 }}
@@ -20,12 +19,8 @@ const Header = () => {
 				<Link href="/">
 					<a className="p-ripple flex border-round px-4 cursor-pointer transition-duration-300 align-items-center">
 						<i className="pi pi-code mt-1 mr-2" />
-						<Char360 char="r" />
-						<Char360 char="a" />
-						<Char360 char="d" />
-						<Char360 char="o" />
-						<Char360 char="n" />
-						<Char360 char="z" />
+
+						<span className={"font-bold font-italic"}>radonz</span>
 						<Ripple />
 					</a>
 				</Link>
@@ -49,7 +44,7 @@ const Header = () => {
 						<Link href="/about">
 							<motion.a
 								whileTap={{ scale: 0.9 }}
-								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full bg-yellow-200"
+								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
 							>
 								<i className="pi pi-user mr-2"></i>
 								<span>About</span>
@@ -62,7 +57,7 @@ const Header = () => {
 						<Link href="/projects">
 							<motion.a
 								whileTap={{ scale: 0.9 }}
-								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full bg-yellow-200"
+								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
 							>
 								<i className="pi pi-briefcase mr-2"></i>
 								<span>Projects</span>
@@ -74,7 +69,7 @@ const Header = () => {
 						<Link href="/contact">
 							<motion.a
 								whileTap={{ scale: 0.9 }}
-								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full bg-yellow-200"
+								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
 							>
 								<i className="pi pi-envelope mr-2"></i>
 								<span>Contact</span>
@@ -88,7 +83,7 @@ const Header = () => {
 						<a
 							href="https://www.github.com/gitradonz"
 							target={"_blank"}
-							className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 bg-yellow-200 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
+							className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
 							rel="noreferrer"
 						>
 							<i className="pi pi-github"></i>
@@ -99,7 +94,7 @@ const Header = () => {
 						<a
 							href="https://www.linkedin.com/in/pabloriosmartinez"
 							target={"_blank"}
-							className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 bg-yellow-200 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
+							className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
 							rel="noreferrer"
 						>
 							<i className="pi pi-linkedin"></i>

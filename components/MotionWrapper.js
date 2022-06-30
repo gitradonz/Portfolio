@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const variants = {
 	initial: { x: "120%" },
 	animate: { x: 0 },
-	exit: { x: "-120%" },
+	exit: { x: "-120%", opacity: 0 },
 };
 
 const MotionWrapper = ({ children, router }) => {
