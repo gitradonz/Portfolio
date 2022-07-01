@@ -20,6 +20,11 @@ a {
 	backdrop-filter: blur(8px);
 }
 
+.headerButtonsBlur {
+	background-color: #fbecc187;
+	backdrop-filter: blur(8px);
+}
+
 .pnf404 {
 	background: linear-gradient(
 		180deg,

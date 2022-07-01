@@ -38,13 +38,13 @@ const Header = () => {
 				</a>
 			</StyleClass>
 			{/* NAVBAR CONTENT */}
-			<div className="align-items-center flex-grow-1 justify-content-between hidden lg:flex absolute lg:static w-full left-0 top-100 z-1 shadow-2 lg:shadow-none h-3rem">
-				<ul className="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row">
+			<div className="align-items-center flex-grow-1 justify-content-between hidden lg:flex absolute lg:static w-full left-0 top-100 z-1 h-3rem">
+				<ul className="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row headerButtonsBlur z-4">
 					<li>
 						<Link href="/about">
 							<motion.a
 								whileTap={{ scale: 0.9 }}
-								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
+								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full justify-content-end"
 							>
 								<i className="pi pi-user mr-2"></i>
 								<span>About</span>
@@ -57,7 +57,7 @@ const Header = () => {
 						<Link href="/projects">
 							<motion.a
 								whileTap={{ scale: 0.9 }}
-								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
+								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full justify-content-end"
 							>
 								<i className="pi pi-briefcase mr-2"></i>
 								<span>Projects</span>
@@ -69,7 +69,7 @@ const Header = () => {
 						<Link href="/contact">
 							<motion.a
 								whileTap={{ scale: 0.9 }}
-								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
+								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full justify-content-end"
 							>
 								<i className="pi pi-envelope mr-2"></i>
 								<span>Contact</span>
@@ -78,8 +78,8 @@ const Header = () => {
 						</Link>
 					</li>
 				</ul>
-				<ul className="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row">
-					<li className="border-top-1 border-yellow-400 lg:border-top-none">
+				<ul className="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row headerButtonsBlur">
+					<li className="hidden border-yellow-400 lg:block">
 						<a
 							href="https://www.github.com/gitradonz"
 							target={"_blank"}
@@ -90,7 +90,7 @@ const Header = () => {
 							<Ripple />
 						</a>
 					</li>
-					<li className="border-top-1 border-yellow-400 lg:border-top-none">
+					<li className="hidden border-yellow-400 lg:block">
 						<a
 							href="https://www.linkedin.com/in/pabloriosmartinez"
 							target={"_blank"}
