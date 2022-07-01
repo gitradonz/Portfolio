@@ -17,7 +17,7 @@ const Header = () => {
 				className="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row mr-6"
 			>
 				<Link href="/">
-					<a className="p-ripple flex border-round px-4 cursor-pointer transition-duration-300 align-items-center">
+					<a className="p-ripple flex border-round px-4 py-2 cursor-pointer transition-duration-300 align-items-center">
 						<i className="pi pi-code mt-1 mr-2" />
 
 						<span className={"font-bold font-italic"}>radonz</span>
