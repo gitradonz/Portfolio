@@ -13,7 +13,7 @@ const Hero = () => {
           style={{ maxWidth: "500px" }}
         >
           I develop web and mobile applications. I have a passion for learning
-          and I'm always looking for new technologies to learn.
+          and I&apos;m always looking for new technologies to learn.
         </p>
 
         <div className="p-3">
@@ -32,6 +32,7 @@ const Hero = () => {
           <a
             href="https://www.lobocom.es"
             target="_blank"
+            rel="noreferrer"
             className="hover:text-yellow-500 cursor-pointer text-yellow-700"
           >
             Lobocom.es

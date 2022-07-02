@@ -1,12 +1,5 @@
-import Projects from "../components/Projects";
-
 const Contact = () => {
-	return (
-		<div>
-			CONTACT
-			<Projects />
-		</div>
-	);
+  return <div>CONTACT</div>;
 };
 
 export default Contact;

@@ -1,12 +1,5 @@
-import Projects from "../components/Projects";
-
 const About = () => {
-	return (
-		<div>
-			About
-			<Projects />
-		</div>
-	);
+  return <div>About</div>;
 };
 
 export default About;
