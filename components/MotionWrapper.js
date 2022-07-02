@@ -15,7 +15,7 @@ const MotionWrapper = ({ children, router }) => {
         animate="animate"
         exit="exit"
         variants={variants}
-        transition={{ type: "spring", duration: 0.6 }}
+        transition={{ type: "spring", duration: 0.4 }}
       >
         {children}
       </motion.main>
