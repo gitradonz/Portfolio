@@ -14,6 +14,7 @@ const Footer = () => {
         <a
           href="https://twitter.com/radonzStudio"
           target={"_blank"}
+          rel="noreferrer"
           className="hover:underline"
         >
           @radonzStudio
