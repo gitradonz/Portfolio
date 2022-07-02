@@ -22,11 +22,6 @@ a {
 	backdrop-filter: blur(8px);
 }
 
-.headerButtonsBlur {
-	background-color: #fbecc187;
-	backdrop-filter: blur(8px);
-}
-
 .heroTitleGradiend{
 	background-image: linear-gradient(to right, #ecc346bb, black);
 	background-clip: text;	

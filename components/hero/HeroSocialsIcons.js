@@ -32,12 +32,13 @@ import { motion } from "framer-motion";
 
 const HeroSocialsIcons = () => {
   return (
-    <div className="m-6 grid ">
+    <div className="m-6 grid">
       {/* WEB */}
       <motion.div
         whileInView={{ opacity: 1 }}
         initial={{ opacity: 0 }}
-        transition={{ duration: 1, delay: 0.5 }}
+        transition={{ duration: 1, delay: 0.2 }}
+        viewport={{ once: true }}
         className="col-12 md:col m-3 border-round-xl p-3 border-1 border-yellow-200 align-items-center"
       >
         <div className="flex flex-column justify-content-center">
@@ -71,7 +72,8 @@ const HeroSocialsIcons = () => {
       <motion.div
         whileInView={{ opacity: 1 }}
         initial={{ opacity: 0 }}
-        transition={{ duration: 1, delay: 1 }}
+        transition={{ duration: 1, delay: 0.4 }}
+        viewport={{ once: true }}
         className="col-12 md:col m-3 border-round-xl p-3 border-1 border-yellow-200 align-items-center"
       >
         <div className="font-bold mb-3 text-2xl text-yellow-800">
@@ -101,7 +103,8 @@ const HeroSocialsIcons = () => {
       <motion.div
         whileInView={{ opacity: 1 }}
         initial={{ opacity: 0 }}
-        transition={{ duration: 1, delay: 1.5 }}
+        transition={{ duration: 1, delay: 0.6 }}
+        viewport={{ once: true }}
         className="col-12 md:col m-3 border-round-xl p-3 border-1 border-yellow-200 align-items-center"
       >
         <div className="font-bold mb-3 text-2xl text-yellow-800">
