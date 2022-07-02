@@ -1,26 +1,26 @@
 import { motion, AnimatePresence } from "framer-motion";
 
 const variants = {
-	initial: { x: "120%" },
-	animate: { x: 0 },
-	exit: { x: "-120%", opacity: 0 },
+  initial: { opacity: 0 },
+  animate: { opacity: 1 },
+  exit: { opacity: 0 },
 };
 
 const MotionWrapper = ({ children, router }) => {
-	return (
-		<AnimatePresence exitBeforeEnter={true}>
-			<motion.main
-				key={router.route}
-				initial="initial"
-				animate="animate"
-				exit="exit"
-				variants={variants}
-				transition={{ type: "spring", duration: 0.6 }}
-			>
-				{children}
-			</motion.main>
-		</AnimatePresence>
-	);
+  return (
+    <AnimatePresence exitBeforeEnter={true}>
+      <motion.main
+        key={router.route}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        variants={variants}
+        transition={{ type: "spring", duration: 0.6 }}
+      >
+        {children}
+      </motion.main>
+    </AnimatePresence>
+  );
 };
 
 export default MotionWrapper;

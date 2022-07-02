@@ -1,5 +1,5 @@
 import Projects from "../components/Projects";
 
 export default function Home() {
-	return <Projects />;
+  return <div>HOME</div>;
 }
