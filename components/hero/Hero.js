@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="relative overflow-hidden p-3 bg-yellow-50">
       <div className="text-center my-6 relative">
         <div className="text-6xl font-bold ">Pablo Ríos</div>
-        <div className="text-6xl font-bold mb-4 heroTitleGradiend">
+        <div className="text-7xl font-bold mb-4 heroTitleGradiend">
           App Developer
         </div>
         <p
@@ -18,17 +18,11 @@ const Hero = () => {
 
         <div className="p-3">
           <a
-            className="p-3 bg-yellow-200 border-round m-5"
+            className="p-3 bg-yellow-200 border-round m-5 transition-duration-200 hover:bg-yellow-300"
             href="cv.pdf"
             title="cv"
             download
           >
-            {/* <Button
-            className="p-button-warning"
-            label="Download CV"
-            type="button"
-            icon="pi pi-download"
-          /> */}
             <span className="font-bold">Download CV</span>
             <i className="pi pi-download ml-2"></i>
           </a>
@@ -38,7 +32,7 @@ const Hero = () => {
           <a
             href="https://www.lobocom.es"
             target="_blank"
-            className="hover:underline text-yellow-500"
+            className="hover:text-yellow-500 cursor-pointer text-yellow-700"
           >
             Lobocom.es
           </a>
