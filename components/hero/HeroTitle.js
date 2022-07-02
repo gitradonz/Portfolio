@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const SectionTitle = ({ title, initial, inView, exit }) => {
+const HeroTitle = ({ title, initial, inView, exit }) => {
   return (
     <motion.div
       initial={initial}
@@ -8,9 +8,9 @@ const SectionTitle = ({ title, initial, inView, exit }) => {
       exit={exit}
       transition={{ duration: 0.7 }}
     >
-      <h1>{title}</h1>
+      <div className="text-6xl  font-bold">{title}</div>
     </motion.div>
   );
 };
 
-export default SectionTitle;
+export default HeroTitle;

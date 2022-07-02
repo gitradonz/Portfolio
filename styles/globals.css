@@ -25,6 +25,12 @@ a {
 	backdrop-filter: blur(8px);
 }
 
+.heroTitleGradiend{
+	background-image: linear-gradient(to right, #ecc346bb, black);
+	background-clip: text;	
+	color: transparent;
+}
+
 .pnf404 {
 	background: linear-gradient(
 		180deg,
