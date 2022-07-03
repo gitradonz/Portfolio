@@ -11,7 +11,7 @@ const ArrowGoDown = () => {
       style={{ y }}
     >
       <motion.a
-        href="#projectsResume"
+        href="#works"
         whileInView={{ opacity: [0, 1] }}
         transition={{
           duration: 1,

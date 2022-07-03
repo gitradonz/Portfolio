@@ -5,7 +5,7 @@ const ProjectsResume = () => {
   const y = useTransform(scrollY, [400, 800], [0, 60]);
 
   return (
-    <motion.div id="projectsResume" className="relative bg-yellow-50">
+    <motion.div id="works" className="relative bg-yellow-50">
       <div className="flex flex-column align-items-center justify-content-center p-3 ">
         <motion.div className="text-6xl font-bold" style={{ y }}>
           Works

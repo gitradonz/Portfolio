@@ -1,30 +1,15 @@
-import {
-  SiJavascript,
-  SiReact,
-  SiKotlin,
-  SiCsharp,
-  SiCss3,
-  SiFirebase,
-  SiGithub,
-  SiXamarin,
-  SiExpo,
-  SiAndroidstudio,
-  SiMongodb,
-  SiUnity,
-  SiBitbucket,
-  SiSlack,
-  SiNotion,
-  SiGraphql,
-} from "react-icons/si";
-import { BsLaptop, BsPhone, BsApple } from "react-icons/bs";
+import { BsLaptop, BsPhone } from "react-icons/bs";
 import { IoIosDesktop } from "react-icons/io";
-import { DiAndroid } from "react-icons/di";
 import { motion } from "framer-motion";
 import HeroIconAnimation from "./HeroIconAnimation";
 
 const HeroSocialsIcons = () => {
   return (
-    <div className="m-6 grid">
+    <motion.div
+      animate={{ y: 30 }}
+      transition={{ delay: 6, duration: 2 }}
+      className="m-6 grid"
+    >
       {/* WEB */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -181,7 +166,7 @@ const HeroSocialsIcons = () => {
           className="border-bottom-2 border-yellow-700 flex w-100 pt-4"
         ></motion.div>
       </motion.div>
-    </div>
+    </motion.div>
   );
 };
 
