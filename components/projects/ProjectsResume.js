@@ -20,7 +20,7 @@ const ProjectsResume = () => {
           <div className="flex flex-wrap">
             <div className="w-full lg:w-6 xl:w-3 p-5">
               <img
-                src="https://i.ytimg.com/vi/uo_yV06qx54/maxresdefault.jpg"
+                src="https://media.istockphoto.com/illustrations/work-in-progress-loading-bar-illustration-id508408464?k=20&m=508408464&s=612x612&w=0&h=jgUij04wrlpVxQQUL3ItdMSody7WBRycp8snNirbww0="
                 className="w-full"
               />
               <div className="mt-3 mb-2 font-medium text-900 text-xl">
@@ -33,7 +33,7 @@ const ProjectsResume = () => {
             </div>
             <div className="w-full lg:w-6 xl:w-3 p-5">
               <img
-                src="https://i.ytimg.com/vi/uo_yV06qx54/maxresdefault.jpg"
+                src="https://media.istockphoto.com/illustrations/work-in-progress-loading-bar-illustration-id508408464?k=20&m=508408464&s=612x612&w=0&h=jgUij04wrlpVxQQUL3ItdMSody7WBRycp8snNirbww0="
                 alt="Image"
                 className="w-full"
               />
@@ -46,7 +46,7 @@ const ProjectsResume = () => {
             </div>
             <div className="w-full lg:w-6 xl:w-3 p-5">
               <img
-                src="https://i.ytimg.com/vi/uo_yV06qx54/maxresdefault.jpg"
+                src="https://media.istockphoto.com/illustrations/work-in-progress-loading-bar-illustration-id508408464?k=20&m=508408464&s=612x612&w=0&h=jgUij04wrlpVxQQUL3ItdMSody7WBRycp8snNirbww0="
                 alt="Image"
                 className="w-full"
               />
@@ -60,7 +60,7 @@ const ProjectsResume = () => {
             </div>
             <div className="w-full lg:w-6 xl:w-3 p-5">
               <img
-                src="https://i.ytimg.com/vi/uo_yV06qx54/maxresdefault.jpg"
+                src="https://media.istockphoto.com/illustrations/work-in-progress-loading-bar-illustration-id508408464?k=20&m=508408464&s=612x612&w=0&h=jgUij04wrlpVxQQUL3ItdMSody7WBRycp8snNirbww0="
                 alt="Image"
                 className="w-full"
               />
