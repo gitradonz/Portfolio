@@ -3,7 +3,7 @@ import HeroSocialsIcons from "./HeroSocialsIcons";
 const Hero = () => {
   return (
     <div className="relative overflow-hidden p-3 bg-yellow-50">
-      <div className="text-center my-6 relative">
+      <div className="text-center my-3 md:my-6 relative">
         <div className="text-6xl font-bold ">Pablo Ríos</div>
         <div className="text-7xl font-bold mb-4 heroTitleGradiend">
           App Developer
@@ -27,7 +27,7 @@ const Hero = () => {
             <i className="pi pi-download ml-2"></i>
           </a>
         </div>
-        <p className="text-sm mt-4 mb-4 line-height-3 ">
+        <p className="text-sm mt-4 md:mb-8 line-height-3 ">
           Actually working at{" "}
           <a
             href="https://www.lobocom.es"
