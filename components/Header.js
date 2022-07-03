@@ -18,10 +18,9 @@ const Header = () => {
       >
         <Link href="/">
           <a className="p-ripple flex border-round px-4 py-2 cursor-pointer transition-duration-300 align-items-center">
-            <i className="pi pi-code mt-1 mr-2" />
-
-            <span className={"font-bold font-italic"}>radonz</span>
-            <Ripple />
+            <span className={"font-bold font-italic"}>
+              {"<"}radonz{">"}
+            </span>
           </a>
         </Link>
       </motion.div>
