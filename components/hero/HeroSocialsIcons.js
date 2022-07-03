@@ -160,12 +160,12 @@ const HeroSocialsIcons = () => {
           <HeroIconAnimation icon="firebase" x={-50} y={0} scale={4} />
           <HeroIconAnimation icon="mongodb" x={250} y={-170} scale={3} />
           <HeroIconAnimation icon="mysql" x={-200} y={-210} scale={3} />
-          <HeroIconAnimation icon="graphql" x={280} y={-490} scale={3} />
+          <HeroIconAnimation icon="graphql" x={130} y={-350} scale={3} />
         </div>
         <div className="flex justify-content-evenly align-items-center mb-3">
           <HeroIconAnimation icon="github" x={150} y={-460} scale={4} />
           <HeroIconAnimation icon="bitbucket" x={-200} y={-210} scale={3} />
-          <HeroIconAnimation icon="slack" x={280} y={-490} scale={3} />
+          <HeroIconAnimation icon="slack" x={200} y={-490} scale={3} />
           <HeroIconAnimation icon="notion" x={-200} y={-210} scale={3} />
         </div>
         <div className="flex justify-content-evenly align-items-center mb-3">
