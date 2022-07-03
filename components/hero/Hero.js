@@ -2,8 +2,8 @@ import HeroSocialsIcons from "./HeroSocialsIcons";
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden p-3 bg-yellow-50">
-      <div className="text-center my-3 md:my-6 relative">
+    <div className="relative overflow-hidden p-3 heroBgGradient">
+      <div className="text-center my-3 md:my-5 relative">
         <div className="text-6xl font-bold ">Pablo Ríos</div>
         <div className="text-7xl font-bold mb-4 heroTitleGradiend">
           App Developer

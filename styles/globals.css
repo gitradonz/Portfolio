@@ -2,6 +2,7 @@
 
 html,
 body {
+	scroll-behavior: smooth;
 	padding: 0;
 	margin: 0;
 	font-family: 'Montserrat', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
@@ -21,7 +22,9 @@ a {
 	background-color: #f6de95bb;
 	backdrop-filter: blur(8px);
 }
-
+.heroBgGradient{
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(254,251,243,1) 32%, rgba(254,251,243,1) 100%);
+}
 .heroTitleGradiend{
 	background-image: linear-gradient(to right, #ecc346bb, black);
 	background-clip: text;	
