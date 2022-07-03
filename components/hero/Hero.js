@@ -12,8 +12,8 @@ const Hero = () => {
           className="mt-0 mb-4 line-height-3 text-center mx-auto "
           style={{ maxWidth: "500px" }}
         >
-          I develop web and mobile applications. I have a passion for learning
-          and I&apos;m always looking for new technologies to learn.
+          I develop web and mobile applications. I have a passion for coding and
+          I&apos;m always looking for new technologies to learn.
         </p>
 
         <div className="p-3">

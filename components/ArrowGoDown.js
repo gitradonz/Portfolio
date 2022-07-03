@@ -3,12 +3,12 @@ import { BsChevronCompactDown } from "react-icons/bs";
 
 const ArrowGoDown = () => {
   const { scrollY } = useViewportScroll();
-  const y1 = useTransform(scrollY, [0, 1200], [0, 100]);
+  const y = useTransform(scrollY, [0, 1000], [0, 200]);
 
   return (
     <motion.div
       className="w-full h-6rem flex justify-content-center align-items-center"
-      style={{ y: y1 }}
+      style={{ y }}
     >
       <motion.a
         href="#projectsResume"
