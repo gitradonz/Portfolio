@@ -1,5 +1,6 @@
 import { useViewportScroll, motion, useTransform } from "framer-motion";
 import IPhoneX from "../deviceLooks/IPhoneX";
+import IPhoneXnew from "../deviceLooks/IPhoneXnew";
 import MacbookPro from "../deviceLooks/macbookPro";
 
 const WorksResume = () => {
@@ -93,7 +94,8 @@ const WorksResume = () => {
               </span>
             </div>
             <motion.div
-              animate={{ x: -60, y: 80 }}
+              initial={{ x: -80, y: 80, opacity: 0 }}
+              animate={{ opacity: 1, transition: { duration: 2 } }}
               className="w-full lg:w-6 xl:w-3 p-5"
             >
               <MacbookPro image={"images/lobocom.png"} />
@@ -108,6 +110,13 @@ const WorksResume = () => {
       <div className=" h-30rem " />
       <div className=" h-30rem " />
       <div className=" h-30rem " />
+      <IPhoneXnew />
+      <div class="iphone-x">
+        <i />
+        <b />
+        <span />
+        <span />
+      </div>
     </motion.div>
   );
 };
