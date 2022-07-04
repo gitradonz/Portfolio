@@ -1,4 +1,6 @@
 import { useViewportScroll, motion, useTransform } from "framer-motion";
+import IPhoneX from "../deviceLooks/IPhoneX";
+import MacbookPro from "../deviceLooks/macbookPro";
 
 const WorksResume = () => {
   const { scrollY } = useViewportScroll();
@@ -18,11 +20,30 @@ const WorksResume = () => {
         </p>
         <div className="px-4 md:px-6 lg:px-8">
           <div className="flex flex-wrap">
-            <div className="w-full lg:w-6 xl:w-3 p-5">
-              <img
-                src="https://media.istockphoto.com/illustrations/work-in-progress-loading-bar-illustration-id508408464?k=20&m=508408464&s=612x612&w=0&h=jgUij04wrlpVxQQUL3ItdMSody7WBRycp8snNirbww0="
-                className="w-full"
-              />
+            <div className="w-full h-full lg:w-6 xl:w-3 p-5">
+              <motion.div
+                initial={{
+                  scale: 0.4,
+                  margin: -230,
+                  x: 0,
+                  rotateX: -5,
+                  rotateZ: 5,
+                  rotateY: 30,
+                  backgroundImage: "url(images/comocomen.PNG)",
+                  backgroundSize: "cover",
+                  opacity: 0,
+                }}
+                whileInView={{ x: 200, opacity: 1 }}
+                whileHover={{ rotateX: 0, rotateZ: 0 }}
+                viewport={{ once: true }}
+                class="iphone-x"
+              >
+                <i />
+                <b />
+                <span />
+                <span />
+              </motion.div>
+
               <div className="mt-3 mb-2 font-medium text-900 text-xl">
                 Fullstack
               </div>
@@ -32,24 +53,28 @@ const WorksResume = () => {
               </span>
             </div>
             <div className="w-full lg:w-6 xl:w-3 p-5">
-              <img
-                src="https://media.istockphoto.com/illustrations/work-in-progress-loading-bar-illustration-id508408464?k=20&m=508408464&s=612x612&w=0&h=jgUij04wrlpVxQQUL3ItdMSody7WBRycp8snNirbww0="
-                alt="Image"
-                className="w-full"
-              />
-              <div className="mt-3 mb-2 font-medium text-900 text-xl">
-                Android & iOS
-              </div>
-              <span className="text-700 line-height-3">
-                Created and distributed apps throught PlayStore and AppStore.
-              </span>
-            </div>
-            <div className="w-full lg:w-6 xl:w-3 p-5">
-              <img
-                src="https://media.istockphoto.com/illustrations/work-in-progress-loading-bar-illustration-id508408464?k=20&m=508408464&s=612x612&w=0&h=jgUij04wrlpVxQQUL3ItdMSody7WBRycp8snNirbww0="
-                alt="Image"
-                className="w-full"
-              />
+              <motion.div
+                initial={{
+                  scale: 0.4,
+                  margin: -230,
+                  x: 0,
+                  rotateX: -5,
+                  rotateZ: 5,
+                  rotateY: 30,
+                  backgroundImage: "url(images/comocomen.PNG)",
+                  backgroundSize: "cover",
+                  opacity: 0,
+                }}
+                whileInView={{ x: 200, opacity: 1 }}
+                whileHover={{ rotateX: 0, rotateZ: 0 }}
+                viewport={{ once: true }}
+                class="iphone-x"
+              >
+                <i />
+                <b />
+                <span />
+                <span />
+              </motion.div>
               <div className="mt-3 mb-2 font-medium text-900 text-xl">
                 Databases and APIs
               </div>
@@ -59,16 +84,24 @@ const WorksResume = () => {
               </span>
             </div>
             <div className="w-full lg:w-6 xl:w-3 p-5">
-              <img
-                src="https://media.istockphoto.com/illustrations/work-in-progress-loading-bar-illustration-id508408464?k=20&m=508408464&s=612x612&w=0&h=jgUij04wrlpVxQQUL3ItdMSody7WBRycp8snNirbww0="
-                alt="Image"
-                className="w-full"
-              />
+              <IPhoneX image="url(images/lobocom.png)" />
+              <div className="mt-3 mb-2 font-medium text-900 text-xl">
+                Android & iOS
+              </div>
+              <span className="text-700 line-height-3">
+                Created and distributed apps throught PlayStore and AppStore.
+              </span>
+            </div>
+            <motion.div
+              animate={{ x: -60, y: 80 }}
+              className="w-full lg:w-6 xl:w-3 p-5"
+            >
+              <MacbookPro image={"images/lobocom.png"} />
               <div className="mt-3 mb-2 font-medium text-900 text-xl">Web</div>
               <span className="text-700 line-height-3">
                 Specialized in web frameworks.
               </span>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
