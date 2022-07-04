@@ -8,7 +8,7 @@ const HeroSocialsIcons = () => {
     <motion.div
       animate={{ y: 30 }}
       transition={{ delay: 6, duration: 2 }}
-      className="m-6 grid"
+      className="mt-6 mr-6 ml-6 grid"
     >
       {/* WEB */}
       <motion.div

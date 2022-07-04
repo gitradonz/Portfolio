@@ -3,27 +3,31 @@ import HeroSocialsIcons from "./HeroSocialsIcons";
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden p-3 heroBgGradient">
-      <div className="text-center my-3 md:my-5 relative">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 3, duration: 1 }}
-        >
+    <div className="relative overflow-hidden p-2 heroBgGradient">
+      <div className="text-center my-3 relative">
+        <motion.div animate={{ y: 30 }} transition={{ delay: 6, duration: 2 }}>
           <motion.div
-            animate={{ y: 30 }}
-            transition={{ delay: 6, duration: 2 }}
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="text-6xl font-bold"
           >
-            <div className="text-6xl font-bold ">Pablo Ríos</div>
+            Pablo Ríos
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 3, duration: 1 }}
+          >
             <motion.div
               animate={{ scale: 1.2 }}
               transition={{ delay: 6, duration: 2 }}
-              className="text-7xl font-bold mb-4 heroTitleGradiend"
+              className="text-7xl font-bold mb-2 heroTitleGradiend"
             >
               Developer
             </motion.div>
             <p
-              className="mt-0 mb-4 line-height-3 text-center mx-auto "
+              className="mt-0 mb-4 line-height-3 text-center mx-auto"
               style={{ maxWidth: "500px" }}
             >
               I develop web and mobile applications. I have a passion for coding
@@ -54,6 +58,7 @@ const Hero = () => {
             </p>
           </motion.div>
         </motion.div>
+
         <HeroSocialsIcons />
       </div>
     </div>
