@@ -1,6 +1,6 @@
 import { useViewportScroll, motion, useTransform } from "framer-motion";
 
-const ProjectsResume = () => {
+const WorksResume = () => {
   const { scrollY } = useViewportScroll();
   const y = useTransform(scrollY, [400, 800], [0, 60]);
 
@@ -79,4 +79,4 @@ const ProjectsResume = () => {
   );
 };
 
-export default ProjectsResume;
+export default WorksResume;

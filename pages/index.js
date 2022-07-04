@@ -1,13 +1,13 @@
 import ArrowGoDown from "../components/ArrowGoDown";
 import Hero from "../components/hero/Hero";
-import ProjectsResume from "../components/projects/ProjectsResume";
+import WorksResume from "../components/works/WorksResume";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <ArrowGoDown />
-      <ProjectsResume />
+      <WorksResume />
     </>
   );
 }
