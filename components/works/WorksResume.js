@@ -1,6 +1,6 @@
 import { useViewportScroll, motion, useTransform } from "framer-motion";
 import IPhoneX from "../deviceLooks/IPhoneX";
-import MacbookPro from "../deviceLooks/macbookPro";
+import MacbookPro from "../deviceLooks/MacbookPro";
 
 const WorksResume = () => {
 	const { scrollY } = useViewportScroll();
