@@ -1,6 +1,5 @@
 import { useViewportScroll, motion, useTransform } from "framer-motion";
 import IPhoneX from "../deviceLooks/IPhoneX";
-import IPhoneXnew from "../deviceLooks/IPhoneXnew";
 import MacbookPro from "../deviceLooks/macbookPro";
 
 const WorksResume = () => {
@@ -37,7 +36,7 @@ const WorksResume = () => {
 								whileInView={{ x: 200, opacity: 1 }}
 								whileHover={{ rotateX: 0, rotateZ: 0 }}
 								viewport={{ once: true }}
-								class="iphone-x"
+								className="iphone-x"
 							>
 								<i />
 								<b />
@@ -67,7 +66,7 @@ const WorksResume = () => {
 								whileInView={{ x: 200, opacity: 1 }}
 								whileHover={{ rotateX: 0, rotateZ: 0 }}
 								viewport={{ once: true }}
-								class="iphone-x"
+								className="iphone-x"
 							>
 								<i />
 								<b />
@@ -91,7 +90,7 @@ const WorksResume = () => {
 							animate={{ opacity: 1, transition: { duration: 2 } }}
 							className="w-full lg:w-6 xl:w-3 p-5"
 						>
-							<MacbookPro image={"images/lobocom.png"} />
+							<MacbookPro image={"/images/lobocom.png"} />
 							<div className="mt-3 mb-2 font-medium text-900 text-xl">Web</div>
 							<span className="text-700 line-height-3">Specialized in web frameworks.</span>
 						</motion.div>
@@ -122,7 +121,7 @@ const WorksResume = () => {
 					scale: 0.5,
 				}}
 				viewport={{ once: true }}
-				class="iphone-x"
+				className="iphone-x"
 			>
 				<i />
 				<b />
@@ -131,13 +130,6 @@ const WorksResume = () => {
 			</motion.div>
 			<div className=" h-30rem " />
 			<div className=" h-30rem " />
-			<IPhoneXnew />
-			<div class="iphone-x">
-				<i />
-				<b />
-				<span />
-				<span />
-			</div>
 		</motion.div>
 	);
 };
