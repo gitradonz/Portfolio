@@ -5,17 +5,27 @@ const IPhoneX = ({ image }) => {
 		<motion.div
 			initial={{
 				scale: 0.4,
-				margin: -230,
+				margin: -220,
 				x: 0,
 				rotateX: -5,
 				rotateZ: 5,
 				rotateY: 30,
 				backgroundImage: image,
-				backgroundSize: "contain",
+				backgroundSize: "cover",
 				opacity: 0,
+				boxShadow:
+					"0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 20px 20px 30px 20px #1f1f1f",
 			}}
-			whileInView={{ x: 200, opacity: 1 }}
-			whileHover={{ rotateX: 0, rotateZ: 0 }}
+			whileInView={{ x: 150, opacity: 1 }}
+			whileHover={{
+				rotateX: 0,
+				rotateZ: 0,
+				boxShadow:
+					"0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 0px 0px 0px 20px #ffffff",
+				scale: 0.5,
+				padding: -150,
+			}}
+			animate={{ backgroundImage: "url(images/comocomen.PNG)" }}
 			viewport={{ once: true }}
 			className="iphone-x"
 		>
