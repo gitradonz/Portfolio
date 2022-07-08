@@ -20,7 +20,7 @@ const WorksResume = () => {
 				</p>
 				<div className="px-4 md:px-6 lg:px-8">
 					<div className="flex flex-wrap">
-						<div className="w-full h-full lg:w-6 xl:w-3 p-5">
+						<div className="w-full h-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
 							<IPhoneX image="url(images/lobocom.png)" />
 							<div className="mt-3 mb-2 font-medium text-900 text-xl flex justify-content-center">
 								Fullstack
@@ -30,7 +30,7 @@ const WorksResume = () => {
 								integration.
 							</div>
 						</div>
-						<div className="w-full lg:w-6 xl:w-3 p-5">
+						<div className="w-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
 							<IPhoneX image="url(images/lobocom.png)" />
 							<div className="mt-3 mb-2 font-medium text-900 text-xl flex justify-content-center">
 								Databases and APIs
@@ -39,7 +39,7 @@ const WorksResume = () => {
 								Developed multiple projects with backend connections and API calls.
 							</div>
 						</div>
-						<div className="w-full lg:w-6 xl:w-3 p-5">
+						<div className="w-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
 							<IPhoneX image="url(images/lobocom.png)" />
 							<div className="mt-3 mb-2 font-medium text-900 text-xl flex justify-content-center">
 								Android & iOS
@@ -48,7 +48,7 @@ const WorksResume = () => {
 								Created and distributed apps throught PlayStore and AppStore.
 							</div>
 						</div>
-						<div className="w-full lg:w-6 xl:w-3 p-5">
+						<div className="w-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
 							{/* <MacbookPro image={"/images/lobocom.png"} /> */}
 							<IPhoneX image="url(images/lobocom.png)" />
 
@@ -56,7 +56,7 @@ const WorksResume = () => {
 								Web
 							</div>
 							<div className="text-700 line-height-3 text-center">
-								Specialized in web frameworks.
+								Spezialiced in frontend development. Using modern frameworks and services.
 							</div>
 						</div>
 					</div>

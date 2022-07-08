@@ -16,7 +16,7 @@ const IPhoneX = ({ image }) => {
 				boxShadow:
 					"0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 20px 20px 30px 20px #1f1f1f",
 			}}
-			whileInView={{ x: 150, opacity: 1 }}
+			whileInView={{ opacity: 1 }}
 			whileHover={{
 				rotateX: 0,
 				rotateZ: 0,
