@@ -13,7 +13,7 @@ const WorksResume = () => {
 		<motion.div className="flex" style={{ y: yDissapear }}>
 			<motion.div id="works" className="relative bg-white mt-2">
 				<div className="flex flex-column align-items-center justify-content-center p-3 ">
-					<motion.div className="text-6xl font-bold" style={{ y }}>
+					<motion.div className="text-7xl font-bold" style={{ y }}>
 						Works
 					</motion.div>
 					<p
@@ -26,7 +26,7 @@ const WorksResume = () => {
 						<div className="flex flex-wrap">
 							<div className="w-full h-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
 								<IPhoneX image="url(images/comocomen.PNG)" />
-								<div className="mt-3 mb-2 font-medium text-900 text-xl flex justify-content-center">
+								<div className="mt-3 mb-2 font-medium text-900 text-3xl flex justify-content-center">
 									Fullstack
 								</div>
 								<div className="text-700 line-height-3 text-center">
@@ -36,7 +36,7 @@ const WorksResume = () => {
 							</div>
 							<div className="w-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
 								<Navigator image={"/images/huntz.png"} />
-								<div className="mt-3 mb-2 font-medium text-900 text-xl flex justify-content-center">
+								<div className="mt-3 mb-2 font-medium text-900 text-3xl flex justify-content-center">
 									Databases and APIs
 								</div>
 								<div className="text-700 line-height-3 text-center">
@@ -45,7 +45,7 @@ const WorksResume = () => {
 							</div>
 							<div className="w-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
 								<IPhoneX image="url(images/lobocom.png)" />
-								<div className="mt-3 mb-2 font-medium text-900 text-xl flex justify-content-center">
+								<div className="mt-3 mb-2 font-medium text-900 text-3xl flex justify-content-center">
 									Android & iOS
 								</div>
 								<div className="text-700 line-height-3 text-center">
@@ -54,7 +54,7 @@ const WorksResume = () => {
 							</div>
 							<div className="w-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
 								<Navigator image={"/images/fresmedical.png"} />
-								<div className="mt-3 mb-2 font-medium text-900 text-xl flex justify-content-center">
+								<div className="mt-3 mb-2 font-medium text-900 text-3xl flex justify-content-center">
 									Web
 								</div>
 								<div className="text-700 line-height-3 text-center">
