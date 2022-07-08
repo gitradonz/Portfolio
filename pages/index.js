@@ -11,7 +11,7 @@ export default function Home() {
 			<WorksResume />
 			<AboutResume />
 			<div className=" h-30rem bg-orange-100" />
-			<div className=" h-30rem " />
+			<div className=" h-30rem bg-red-100" />
 		</>
 	);
 }
