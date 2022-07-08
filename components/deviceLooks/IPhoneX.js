@@ -11,7 +11,7 @@ const IPhoneX = ({ image }) => {
 				rotateZ: 5,
 				rotateY: 30,
 				backgroundImage: image,
-				backgroundSize: "cover",
+				backgroundSize: "contain",
 				opacity: 0,
 				boxShadow:
 					"0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 20px 20px 30px 20px #1f1f1f",
@@ -25,7 +25,7 @@ const IPhoneX = ({ image }) => {
 				scale: 0.5,
 				padding: -150,
 			}}
-			animate={{ backgroundImage: "url(images/comocomen.PNG)" }}
+			w
 			viewport={{ once: true }}
 			className="iphone-x"
 		>

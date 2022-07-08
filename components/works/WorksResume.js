@@ -1,6 +1,6 @@
 import { useViewportScroll, motion, useTransform } from "framer-motion";
 import IPhoneX from "../deviceLooks/IPhoneX";
-import MacbookPro from "../deviceLooks/MacbookPro";
+import Navigator from "../deviceLooks/Navigator";
 
 const WorksResume = () => {
 	const { scrollY } = useViewportScroll();
@@ -21,7 +21,7 @@ const WorksResume = () => {
 				<div className="px-4 md:px-6 lg:px-8">
 					<div className="flex flex-wrap">
 						<div className="w-full h-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
-							<IPhoneX image="url(images/lobocom.png)" />
+							<IPhoneX image="url(images/comocomen.PNG)" />
 							<div className="mt-3 mb-2 font-medium text-900 text-xl flex justify-content-center">
 								Fullstack
 							</div>
@@ -31,7 +31,7 @@ const WorksResume = () => {
 							</div>
 						</div>
 						<div className="w-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
-							<IPhoneX image="url(images/lobocom.png)" />
+							<Navigator image={"/images/huntz.png"} />
 							<div className="mt-3 mb-2 font-medium text-900 text-xl flex justify-content-center">
 								Databases and APIs
 							</div>
@@ -49,8 +49,9 @@ const WorksResume = () => {
 							</div>
 						</div>
 						<div className="w-full lg:w-6 xl:w-3 p-5 flex flex-column justify-content-center align-items-center">
-							{/* <MacbookPro image={"/images/lobocom.png"} /> */}
-							<IPhoneX image="url(images/lobocom.png)" />
+							<Navigator image={"/images/fresmedical.png"} />
+
+							{/* <IPhoneX image="url(images/lobocom.png)" /> */}
 
 							<div className="mt-3 mb-2 font-medium text-900 text-xl flex justify-content-center">
 								Web
@@ -62,8 +63,8 @@ const WorksResume = () => {
 					</div>
 				</div>
 			</div>
+			<motion.div className="text-center text-xl">ALL PROYECTS </motion.div>
 			<div className=" h-30rem " />
-
 			<div className=" h-30rem " />
 			<div className=" h-30rem " />
 		</motion.div>
