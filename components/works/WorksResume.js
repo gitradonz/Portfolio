@@ -1,6 +1,7 @@
 import { useViewportScroll, motion, useTransform } from "framer-motion";
 import IPhoneX from "../deviceLooks/IPhoneX";
 import Navigator from "../deviceLooks/Navigator";
+import { CgArrowLongRight } from "react-icons/cg";
 
 const WorksResume = () => {
 	const { scrollY } = useViewportScroll();
@@ -63,7 +64,9 @@ const WorksResume = () => {
 					</div>
 				</div>
 			</div>
-			<motion.div className="text-center text-xl">ALL PROYECTS </motion.div>
+			<motion.div className="bg-yellow-100 flex justify-content-center align-items-center text-xl">
+				ALL WORKS <CgArrowLongRight size={25} className="ml-3" />
+			</motion.div>
 			<div className=" h-30rem " />
 			<div className=" h-30rem " />
 			<div className=" h-30rem " />
