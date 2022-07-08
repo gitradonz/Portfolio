@@ -25,7 +25,6 @@ const IPhoneX = ({ image }) => {
 				scale: 0.5,
 				padding: -150,
 			}}
-			w
 			viewport={{ once: true }}
 			className="iphone-x"
 		>

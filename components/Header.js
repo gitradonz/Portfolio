@@ -53,13 +53,13 @@ const Header = () => {
 					</li>
 
 					<li>
-						<Link href="/projects">
+						<Link href="/works">
 							<motion.a
 								whileTap={{ scale: 0.9 }}
 								className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full justify-content-end"
 							>
 								<i className="pi pi-briefcase mr-2"></i>
-								<span>Projects</span>
+								<span>Works</span>
 								<Ripple />
 							</motion.a>
 						</Link>
