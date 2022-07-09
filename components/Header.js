@@ -3,18 +3,18 @@ import { useRef } from "react";
 import Link from "next/link";
 import { Ripple } from "primereact/ripple";
 import { StyleClass } from "primereact/styleclass";
-import { useViewportScroll, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Header = () => {
-  const { scrollY } = useViewportScroll();
+  // const { scrollY } = useViewportScroll();
   const btnBars = useRef(null);
 
   return (
     <div className="sticky py-3 px-3 shadow-2 flex align-items-center justify-content-between top-0 w-full h-3rem headerGlobal z-5">
-      <button
+      {/* <button
         className="absolute bottom-0 right-0 h-3rem w-3rem bg-orange-100 rounded-full shadow-lg"
         onClick={() => console.log(scrollY)}
-      />
+      /> */}
       {/* BUTTON MENU */}
       <motion.div
         whileHover={{ scale: 1.3 }}
