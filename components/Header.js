@@ -48,7 +48,7 @@ const Header = () => {
             <Link href="/about">
               <motion.a
                 whileTap={{ scale: 0.9 }}
-                className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full justify-content-end"
+                className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-100 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full justify-content-end"
               >
                 <i className="pi pi-user mr-2"></i>
                 <span>About</span>
@@ -61,7 +61,7 @@ const Header = () => {
             <Link href="/works">
               <motion.a
                 whileTap={{ scale: 0.9 }}
-                className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full justify-content-end"
+                className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-100 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full justify-content-end"
               >
                 <i className="pi pi-briefcase mr-2"></i>
                 <span>Works</span>
@@ -73,7 +73,7 @@ const Header = () => {
             <Link href="/contact">
               <motion.a
                 whileTap={{ scale: 0.9 }}
-                className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full justify-content-end"
+                className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-100 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full justify-content-end"
               >
                 <i className="pi pi-envelope mr-2"></i>
                 <span>Contact</span>
@@ -87,7 +87,7 @@ const Header = () => {
             <a
               href="https://www.github.com/gitradonz"
               target={"_blank"}
-              className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
+              className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-100 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
               rel="noreferrer"
             >
               <i className="pi pi-github"></i>
@@ -98,7 +98,7 @@ const Header = () => {
             <a
               href="https://www.linkedin.com/in/pabloriosmartinez"
               target={"_blank"}
-              className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-300 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
+              className="p-ripple flex px-6 p-3 lg:px-3 lg:py-2 align-items-center hover:bg-yellow-100 font-medium border-round cursor-pointer transition-colors transition-duration-150 w-full"
               rel="noreferrer"
             >
               <i className="pi pi-linkedin"></i>
