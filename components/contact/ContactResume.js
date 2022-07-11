@@ -51,8 +51,8 @@ const ContactResume = () => {
 					style={{ backgroundImage: "url('assets/images/blocks/contact/contact-1.png')" }}
 				>
 					<div className="text-700 line-height-3 mb-6">
-						I'm open for new opportunities. If you have a project in mind, or if you just
-						want to say hello, feel free to contact me.
+						I&apos;m open for new opportunities. If you have a project in mind, or if you
+						just want to say hello, feel free to contact me.
 					</div>
 					<div className="inline-flex align-items-center text-yellow-600 font-bold no-underline cursor-pointer">
 						<a href="mailto:pabloriosrdn@gmail.com" className="mr-3">
