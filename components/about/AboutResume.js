@@ -14,7 +14,6 @@ const AboutResume = () => {
 					initial={{ x: -200, opacity: 0 }}
 					whileInView={{ x: 0, opacity: 1 }}
 					viewport={{ once: true }}
-					transition={{ delay: 1 }}
 					className="text-4xl font-bold"
 				>
 					<div className=" px-4 py-4 text-center">
@@ -30,14 +29,14 @@ const AboutResume = () => {
 								image="pi-code"
 							/>
 							<GridSection
-								title="Security"
-								description="Always looking ways to protect clients data and protect the server..."
-								image="pi-shield"
-							/>
-							<GridSection
 								title="UI/UX"
 								description="I love to create beautiful and functional interfaces to make the user experience better."
 								image="pi-palette"
+							/>
+							<GridSection
+								title="Teamwork"
+								description="I'm always connected to the team and I use technologies to work with them and create the best possible product..."
+								image="pi-github"
 							/>
 							<GridSection
 								title="International"
@@ -45,9 +44,9 @@ const AboutResume = () => {
 								image="pi-globe"
 							/>
 							<GridSection
-								title="Teamwork"
-								description="I'm always connected to the team and I use technologies to work with them and create the best possible product..."
-								image="pi-github"
+								title="Security"
+								description="Always looking ways to protect clients data and protect the server..."
+								image="pi-shield"
 							/>
 							<GridSection
 								title="Explore"
