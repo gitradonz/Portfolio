@@ -13,8 +13,8 @@ const WorksDetailed = () => {
 					<WorksSection
 						subtitle="Mobile & Web"
 						title="JavaScript"
-						description="With JavaScript I've developed both front and backend. React and React Native are the main libraries and some frameworks and services like NodeJS, NextJS, Express, React-Router, React-Hook-Forms..."
-						projects={worksMockup}
+						description="With JavaScript I've developed both front and backend. React and React Native are the main libraries I use and some frameworks and services like NodeJS, NextJS, Express, React-Router, React-Hook-Forms..."
+						projects={jsProjects}
 					/>
 				</div>
 				<div className="JAVA">
@@ -71,6 +71,31 @@ const worksMockup = [
 		title: "Facilisis gravida neque",
 		description:
 			"Potenti nullam ac tortor vitae. Aliquet bibendum enim facilisis gravida neque convallis a cras semper.",
+		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
+	},
+	{
+		title: "Facilisis gravida neque",
+		description:
+			"Potenti nullam ac tortor vitae. Aliquet bibendum enim facilisis gravida neque convallis a cras semper.",
+		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
+	},
+];
+const jsProjects = [
+	{
+		title: "CRM - Dashboard",
+		description:
+			"Web to manage clients and their products. Has a login system, API connections, MySQL database auth and performance hooks on the UI.",
+		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
+	},
+	{
+		title: "WebViewer",
+		description:
+			"Mobile app developed to wrap a PWA in a WebView component to give push/local notifications and login system to iOS/Android.",
+		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
+	},
+	{
+		title: "EPub Reader",
+		description: "Web app developed to read ePub books.",
 		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
 	},
 	{
