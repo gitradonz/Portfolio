@@ -4,15 +4,15 @@ import Hero from "../components/hero/Hero";
 import WorksResume from "../components/works/WorksResume";
 
 export default function Home() {
-  return (
-    <>
-      <Hero />
-      <ArrowGoDown />
-      <WorksResume />
-      <div className=" h-30rem" />
-      <AboutResume />
-      <div className=" h-30rem bg-orange-100" />
-      <div className=" h-30rem bg-red-100" />
-    </>
-  );
+	return (
+		<>
+			<Hero />
+			<ArrowGoDown />
+			<WorksResume />
+			<div className="h-30rem" />
+			<AboutResume />
+			<div className=" h-30rem bg-orange-100" />
+			<div className=" h-30rem bg-red-100" />
+		</>
+	);
 }
