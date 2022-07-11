@@ -46,6 +46,34 @@ a {
 	);
 }
 
+.JAVASCRIPT {
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(254, 251, 243, 1) 32%,
+		rgb(248, 233, 192) 100%
+	);
+}
+.JAVA {
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(254, 251, 243, 1) 32%,
+		rgb(248, 192, 192) 100%
+	);
+}
+.CSHARP {
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(254, 251, 243, 1) 32%,
+		rgb(192, 193, 248) 100%
+	);
+}
+.KOTLIN {
+	background: linear-gradient(0deg, #f5eff03a 0%, #b125ea3a 32%, #7f52ff3a 100%);
+}
+
 .iphone-x {
 	position: relative;
 	margin: 40px auto;
