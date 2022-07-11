@@ -65,7 +65,7 @@ const WorksResume = () => {
 					</div>
 
 					<Link href="/works">
-						<a className="bg-yellow-200 mt-8 flex justify-content-center align-items-center text-xl hover:bg-yellow-300 transition-duration-300 cursor-pointer shadow-8 border-none border-round-xl py-2 px-4 font-bold">
+						<a className="bg-yellow-200 mt-8 flex justify-content-center align-items-center text-xl hover:bg-yellow-300 transition-duration-300 cursor-pointer shadow-4 border-none border-round-xl py-2 px-4 font-bold">
 							<i className="pi pi-briefcase mr-2" />
 							WORKS DETAILED
 							<CgArrowLongRight size={25} className="ml-3" />

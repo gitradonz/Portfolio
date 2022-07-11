@@ -6,7 +6,6 @@ const AboutResume = () => {
 	const { scrollY } = useViewportScroll();
 	const y = useTransform(scrollY, [1200, 1400, 1800], [0, -950, -650]);
 
-	console.log(scrollY);
 	return (
 		<motion.div style={{ y }}>
 			<div className="flex flex-column align-items-center justify-content-center p-3 ">
@@ -59,7 +58,7 @@ const AboutResume = () => {
 					</div>
 				</motion.div>
 				<Link href="/about">
-					<a className="bg-yellow-200 mt-8 flex justify-content-center align-items-center text-xl hover:bg-yellow-300 transition-duration-300 cursor-pointer shadow-8 border-none border-round-xl py-2 px-4 font-bold">
+					<a className="bg-yellow-200 mt-8 flex justify-content-center align-items-center text-xl hover:bg-yellow-300 transition-duration-300 cursor-pointer shadow-4 border-none border-round-xl py-2 px-4 font-bold">
 						<i className="pi pi-user mr-2" />
 						MORE DETAILS
 						<CgArrowLongRight size={25} className="ml-3" />
