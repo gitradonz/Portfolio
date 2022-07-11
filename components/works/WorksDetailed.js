@@ -100,9 +100,9 @@ const jsProjects = [
 		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
 	},
 	{
-		title: "Facilisis gravida neque",
+		title: "Test App",
 		description:
-			"Potenti nullam ac tortor vitae. Aliquet bibendum enim facilisis gravida neque convallis a cras semper.",
+			"Mobile app developed to implement and test features. It has QR code scanning, camera, file management, logins, pdf reader, biometric authentication...",
 		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
 	},
 ];
