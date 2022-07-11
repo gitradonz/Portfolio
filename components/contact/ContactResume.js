@@ -5,6 +5,7 @@ import { InputTextarea } from "primereact/inputtextarea";
 const ContactResume = () => {
 	return (
 		<div className="surface-section px-4 py-8 md:px-6 lg:px-8">
+			<div className="text-6xl font-bold text-center mb-4 xl:mb-8">Get in touch</div>
 			<div className="grid">
 				<div className="col-12 md:col-6">
 					<div className="p-fluid pr-0 md:pr-6">
@@ -32,7 +33,7 @@ const ContactResume = () => {
 							</label>
 							<InputTextarea id="message" rows={6} autoResize className="py-3 px-2 text-lg" />
 						</div>
-						<button className="bg-yellow-200 flex justify-content-center align-items-center text-xl hover:bg-yellow-300 transition-duration-300 cursor-pointer shadow-8 border-none border-round py-2 px-4">
+						<button className="bg-yellow-200 flex justify-content-center align-items-center text-xl hover:bg-yellow-300 transition-duration-300 cursor-pointer shadow-8 border-none border-round-xl py-2 px-4">
 							<i className="pi pi-send mr-2" />
 							Send Message
 						</button>
@@ -42,7 +43,6 @@ const ContactResume = () => {
 					className="col-12 md:col-6 bg-no-repeat bg-right-bottom"
 					style={{ backgroundImage: "url('assets/images/blocks/contact/contact-1.png')" }}
 				>
-					<div className="text-900 text-2xl font-medium mb-6">Contact Me</div>
 					<div className="text-700 line-height-3 mb-6">
 						I'm open for new opportunities. If you have a project in mind, or if you just
 						want to say hello, feel free to contact me.

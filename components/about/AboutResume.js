@@ -10,7 +10,7 @@ const AboutResume = () => {
 	return (
 		<motion.div style={{ y }}>
 			<div className="flex flex-column align-items-center justify-content-center p-3 ">
-				<motion.div className="text-6xl font-bold">About me</motion.div>
+				<div className="text-6xl font-bold">About me</div>
 				<motion.div
 					initial={{ x: -200, opacity: 0 }}
 					whileInView={{ x: 0, opacity: 1 }}
@@ -59,7 +59,7 @@ const AboutResume = () => {
 					</div>
 				</motion.div>
 				<Link href="/about">
-					<a className="bg-yellow-200 mt-8 flex justify-content-center align-items-center text-xl hover:bg-yellow-300 transition-duration-300 cursor-pointer shadow-8 border-none border-round py-2 px-4 font-bold">
+					<a className="bg-yellow-200 mt-8 flex justify-content-center align-items-center text-xl hover:bg-yellow-300 transition-duration-300 cursor-pointer shadow-8 border-none border-round-xl py-2 px-4 font-bold">
 						<i className="pi pi-user mr-2" />
 						MORE DETAILS
 						<CgArrowLongRight size={25} className="ml-3" />
