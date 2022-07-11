@@ -22,7 +22,7 @@ const WorksDetailed = () => {
 						subtitle="Desktop"
 						title="Java"
 						description="With Java I've developed mainly backend projects. I've used JavaFX to show outputs and I made connections to BBDD with JDBC, hibernate, ORM..."
-						projects={worksMockup}
+						projects={javaProjects}
 					/>
 				</div>
 				<div className="CSHARP">
@@ -30,7 +30,7 @@ const WorksDetailed = () => {
 						subtitle="Desktop ( Unity )"
 						title="C#"
 						description="I've developed my first game with C# and I've used Unity and Firebase to do it. Also I connected a web and mobile app with Firebase connections."
-						projects={worksMockup}
+						projects={csharpProjects}
 					/>
 				</div>
 				<div className="KOTLIN">
@@ -80,11 +80,36 @@ const worksMockup = [
 		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
 	},
 ];
+const javaProjects = [
+	{
+		title: "LinkTracker",
+		description:
+			"Application to track links in a website. It uses a multi-thread system and JavaFX to show the results.",
+		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
+	},
+	{
+		title: "FlightsFX",
+		description: "Desktop application to track Flights shedule.",
+		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
+	},
+	{
+		title: "CurrencyConverter",
+		description:
+			"Simple desktop application to convert currencies. It also uses JavaFX for the UI.",
+		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
+	},
+	{
+		title: "HeroesFight",
+		description:
+			"Application to make random fights between heroes. It uses console to show the results.",
+		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
+	},
+];
 const jsProjects = [
 	{
 		title: "CRM - Dashboard",
 		description:
-			"Web to manage clients and their products. Has a login system, API connections, MySQL database auth and performance hooks on the UI.",
+			"Web to manage clients and their products. Has a login system, API connections, MySQL database auth and performance features on the UI.",
 		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
 	},
 	{
@@ -103,6 +128,13 @@ const jsProjects = [
 		title: "Test App",
 		description:
 			"Mobile app developed to implement and test features. It has QR code scanning, camera, file management, logins, pdf reader, biometric authentication...",
+		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
+	},
+];
+const csharpProjects = [
+	{
+		title: "HuntZ",
+		description: "",
 		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
 	},
 ];
