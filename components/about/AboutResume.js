@@ -34,6 +34,11 @@ const AboutResume = () => {
 								image="pi-palette"
 							/>
 							<GridSection
+								title="Experience"
+								description="Worked as a FullStack developer for many projects, using technologies like React, Node, and MongoDB."
+								image="pi-building"
+							/>
+							<GridSection
 								title="Teamwork"
 								description="I'm always connected to the team and I use technologies to work with them and create the best possible product..."
 								image="pi-github"
@@ -42,11 +47,6 @@ const AboutResume = () => {
 								title="International"
 								description="Experience with international companys, I have no problem to work with people from different countries."
 								image="pi-globe"
-							/>
-							<GridSection
-								title="Security"
-								description="Always looking ways to protect clients data and protect the server..."
-								image="pi-shield"
 							/>
 							<GridSection
 								title="Explore"
