@@ -94,8 +94,9 @@ const jsProjects = [
 		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
 	},
 	{
-		title: "EPub Reader",
-		description: "Web app developed to read ePub books.",
+		title: "ePub Reader",
+		description:
+			"Web app developed to read ePub books. It has highlighting, search system, dictionary API and other features",
 		image: "https://altertecnia.com/wp-content/uploads/oee-4.png",
 	},
 	{
