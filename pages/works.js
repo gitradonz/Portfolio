@@ -6,8 +6,16 @@ const WorksPage = () => {
 		<>
 			<WorksTitle />
 			<WorksDetailed />
-			<div>FOOTER TECHNOLOGIES</div>
+			<WorksFooter />
 		</>
+	);
+};
+
+const WorksFooter = () => {
+	return (
+		<div class="bg-red-100 text-center">
+			<div>TECHNOLOGIES</div>
+		</div>
 	);
 };
 
