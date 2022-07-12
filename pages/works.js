@@ -13,7 +13,7 @@ const WorksPage = () => {
 
 const WorksFooter = () => {
 	return (
-		<div class="bg-red-100 text-center">
+		<div classNam="bg-red-100 text-center">
 			<div>TECHNOLOGIES</div>
 		</div>
 	);
