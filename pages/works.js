@@ -1,9 +1,10 @@
 import WorksDetailed from "../components/works/WorksDetailed";
+import WorksTitle from "../components/works/WorksTitle";
 
 const WorksPage = () => {
 	return (
 		<>
-			<div>TITLE</div>
+			<WorksTitle />
 			<WorksDetailed />
 			<div>FOOTER TECHNOLOGIES</div>
 		</>

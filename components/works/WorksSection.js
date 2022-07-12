@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const WorksSection = ({ subtitle, title, description, projects }) => {
 	return (
-		<div className="px-4 py-4 md:px-6 lg:px-8">
+		<div className="px-4 py-8 md:px-6 lg:px-8">
 			<div className="text-900 font-medium text-2xl text-center">{title}</div>
 			<div className="text-600 font-medium text-xl text-center">{subtitle}</div>
 			<div className="text-600 font-medium text-center mt-4">{description}</div>
-			<div className="grid mt-3 -mr-3 -ml-3">
+			<div className="grid mt-3 -mr-3 -ml-3 mb-8">
 				{projects.map((project, index) => {
 					return (
 						<div
