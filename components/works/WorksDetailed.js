@@ -20,6 +20,14 @@ const WorksDetailed = () => {
 						projects={jsProjects}
 					/>
 				</div>
+				<div className="KOTLIN">
+					<WorksSection
+						subtitle="Mobile ( AndroidStudio )"
+						title="KOTLIN"
+						description="I used Kotlin to develop mobile applications with AndroidStudio."
+						projects={kotlinProjects}
+					/>
+				</div>
 				<div className="JAVA">
 					<WorksSection
 						subtitle="Desktop"
@@ -34,14 +42,6 @@ const WorksDetailed = () => {
 						title="C#"
 						description="I've developed my first game with C# and I've used Unity and Firebase to do it. Also I connected a web and mobile app with Firebase connections."
 						projects={csharpProjects}
-					/>
-				</div>
-				<div className="KOTLIN">
-					<WorksSection
-						subtitle="Mobile ( AndroidStudio )"
-						title="KOTLIN"
-						description="I used Kotlin to develop mobile applications with AndroidStudio."
-						projects={kotlinProjects}
 					/>
 				</div>
 				<div className="OTHER">
