@@ -49,10 +49,11 @@ a {
 .JAVASCRIPT {
 	background: linear-gradient(
 		0deg,
-		rgba(255, 255, 255, 1) 0%,
-		rgba(254, 251, 243, 1) 32%,
-		#fef0cd 100%
-	);
+		rgba(255,255,255,1) 0%,
+		rgb(248, 243, 192) 40%,
+		rgb(248, 243, 192) 65%,
+		rgba(255,255,255,1) 100%
+		 );
 }
 .JAVA {
 	background: linear-gradient(

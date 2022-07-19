@@ -20,9 +20,9 @@ const WorksSection = ({ subtitle, title, description, projects }) => {
               <Image
                 src={project.image}
                 alt="product"
-                width={200}
-                height={140}
-                layout="responsive"
+                width={300}
+                height={250}
+                layout="intrinsic"
                 className="w-full h-full border-round-xl"
               />
               <div className="text-900 text-xl mt-4">{project.title}</div>

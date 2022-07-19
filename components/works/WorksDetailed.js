@@ -38,9 +38,9 @@ const WorksDetailed = () => {
         </div>
         <div className="CSHARP">
           <WorksSection
-            subtitle="Desktop ( Unity )"
+            subtitle="Desktop (Unity) - Mobile (Xamarin)"
             title="C#"
-            description="I've developed my first game with C# and I've used Unity and Firebase to do it. Also I connected a web and mobile app with Firebase connections."
+            description="I've developed my first game with C# and I've used Unity and Firebase to connect with other projects. Also made some mobile applications with Xamarin Forms."
             projects={csharpProjects}
           />
         </div>
