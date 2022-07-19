@@ -17,18 +17,20 @@ const WorksSection = ({ subtitle, title, description, projects }) => {
               key={project.id}
               className={`xs:col-12 sm:col-6 lg:col-3 p-4 flex flex-column text-center cursor-pointer`}
             >
-              <Image
-                src={project.image}
-                alt="product"
-                width={300}
-                height={250}
-                layout="intrinsic"
-                className="w-full h-full border-round-xl"
-              />
-              <div className="text-900 text-xl mt-4">{project.title}</div>
-              <div className="text-600 mt-3 line-height-3">
-                {project.description}
-              </div>
+              <a href={project.gitLink} target={"_blank"} rel="noreferrer">
+                <Image
+                  src={project.image}
+                  alt="product"
+                  width={300}
+                  height={250}
+                  layout="intrinsic"
+                  className="w-full h-full border-round-xl"
+                />
+                <div className="text-900 text-xl mt-4">{project.title}</div>
+                <div className="text-600 mt-3 line-height-3">
+                  {project.description}
+                </div>
+              </a>
             </motion.div>
           );
         })}
