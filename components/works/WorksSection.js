@@ -1,7 +1,13 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const WorksSection = ({ subtitle, title, description, projects }) => {
+const WorksSection = ({
+  subtitle,
+  title,
+  description,
+  projects,
+  totalProjects,
+}) => {
   return (
     <div className="px-4 py-8 md:px-6 lg:px-8">
       <div className="text-900 font-medium text-6xl text-center">{title}</div>
@@ -9,13 +15,15 @@ const WorksSection = ({ subtitle, title, description, projects }) => {
       <div className="text-600 font-medium text-center mt-4 mb-6">
         {description}
       </div>
-      <div className="grid mt-3 -mr-3 -ml-3 mb-8">
+      <div className="grid mt-3 -mr-3 -ml-3 mb-8 ">
         {projects.map((project) => {
           return (
             <motion.div
               whileHover={{ scale: 1.1 }}
               key={project.id}
-              className="xs:col-12 sm:col-6 lg:col-3 p-4 flex flex-column text-center cursor-pointer"
+              className={`xs:col-12 sm:col-6 lg:col-3 ${
+                totalProjects === 3 && "lg:col-offset-1"
+              } p-4 flex flex-column text-center cursor-pointer`}
             >
               <Image
                 src={project.image}
