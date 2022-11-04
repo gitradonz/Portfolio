@@ -1,5 +1,7 @@
+import ContactResume from '../components/contact/ContactResume';
+
 const Contact = () => {
-  return <div>CONTACT</div>;
+  return <ContactResume />;
 };
 
 export default Contact;

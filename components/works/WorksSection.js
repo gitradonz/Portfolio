@@ -1,12 +1,12 @@
-import Image from "next/image";
-import { motion } from "framer-motion";
+import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const WorksSection = ({ subtitle, title, description, projects }) => {
   return (
     <div className="px-4 py-8 md:px-6 lg:px-8">
       <div className="text-900 font-medium text-6xl text-center">{title}</div>
       <div className="text-600 font-medium text-xl text-center">{subtitle}</div>
-      <div className="text-600 font-medium text-center mt-4 mb-6">
+      <div className="text-600 font-medium text-center mt-1 mb-6">
         {description}
       </div>
       <div className="grid mt-3 -mr-3 -ml-3 mb-8 ">
@@ -17,7 +17,7 @@ const WorksSection = ({ subtitle, title, description, projects }) => {
               key={project.id}
               className={`xs:col-12 sm:col-6 lg:col-3 p-4 flex flex-column text-center cursor-pointer`}
             >
-              <a href={project.gitLink} target={"_blank"} rel="noreferrer">
+              <a href={project.gitLink} target={'_blank'} rel="noreferrer">
                 <Image
                   src={project.image}
                   alt="product"
@@ -27,7 +27,7 @@ const WorksSection = ({ subtitle, title, description, projects }) => {
                   className="w-full h-full border-round-xl"
                 />
                 <div className="text-900 text-xl mt-4">{project.title}</div>
-                <div className="text-600 mt-3 line-height-3">
+                <div className="text-600 line-height-3">
                   {project.description}
                 </div>
               </a>

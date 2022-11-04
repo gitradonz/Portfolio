@@ -14,9 +14,9 @@ const WorksDetailed = () => {
       >
         <div className="JAVASCRIPT">
           <WorksSection
-            subtitle="Mobile & Web"
+            subtitle="Web & Mobile"
             title="JavaScript - TypeScript"
-            description="With JavaScript I've developed both front and backend. React and React Native are the main libraries I use and some frameworks or services like NodeJS, NextJS, Express, React-Router, React-Hook-Forms..."
+            description="React, React Native, NextJS, Express, Redux, Storybook, TailwindCSS..."
             projects={jsProjects}
             totalProjects={jsProjects.length}
           />

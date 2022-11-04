@@ -1,17 +1,9 @@
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from 'primereact/inputtextarea';
-import { useViewportScroll, motion, useTransform } from 'framer-motion';
 
-const ContactResume = () => {
-  // const { scrollY } = useViewportScroll();
-  // const y = useTransform(
-  // 	scrollY,
-  // 	[2000, 2400, 2800, 2900, 3100, 3300],
-  // 	[0, -600, -600, -400, -200, 0]
-  // );
-
+export const ContactResume = () => {
   return (
-    <motion.div className=" px-4 py-8 md:px-6 lg:px-8">
+    <div className=" px-4 pb-8 md:px-6 lg:px-8">
       <div className="text-7xl font-bold text-center mb-4 xl:mb-8">
         Get in touch
       </div>
@@ -107,7 +99,7 @@ const ContactResume = () => {
           </ul>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
