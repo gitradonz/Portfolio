@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
-import WorksSection from "./WorksSection";
-import { allWorks } from "../../works/works";
+import { motion } from 'framer-motion';
+import WorksSection from './WorksSection';
+import { allWorks } from '../../works/works';
 
 const [jsProjects, javaProjects, csharpProjects, kotlinProjects] = allWorks;
 
@@ -15,7 +15,7 @@ const WorksDetailed = () => {
         <div className="JAVASCRIPT">
           <WorksSection
             subtitle="Mobile & Web"
-            title="JavaScript"
+            title="JavaScript - TypeScript"
             description="With JavaScript I've developed both front and backend. React and React Native are the main libraries I use and some frameworks or services like NodeJS, NextJS, Express, React-Router, React-Hook-Forms..."
             projects={jsProjects}
             totalProjects={jsProjects.length}

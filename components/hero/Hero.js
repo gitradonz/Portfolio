@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
-import HeroSocialsIcons from "./HeroSocialsIcons";
+import { motion } from 'framer-motion';
+import HeroSocialsIcons from './HeroSocialsIcons';
 
 const Hero = () => {
   return (
@@ -28,7 +28,7 @@ const Hero = () => {
             </motion.div>
             <p
               className="mt-0 mb-4 line-height-3 text-center mx-auto"
-              style={{ maxWidth: "500px" }}
+              style={{ maxWidth: '500px' }}
             >
               I develop web and mobile applications. I have a passion for coding
               and I&apos;m always looking for new technologies to learn.
@@ -46,9 +46,9 @@ const Hero = () => {
               </a>
             </div>
             <p className="text-sm mt-4 md:mb-8 line-height-3">
-              Actually working at{" "}
+              Actually working at{' '}
               <a
-                href="https://www.supernaeyeglass.com/"
+                href="https://www.superna.io/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-yellow-500 cursor-pointer text-yellow-700"
