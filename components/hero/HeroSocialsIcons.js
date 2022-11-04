@@ -1,7 +1,7 @@
-import { BsLaptop, BsPhone } from "react-icons/bs";
-import { IoIosDesktop } from "react-icons/io";
-import { motion } from "framer-motion";
-import HeroIconAnimation from "./HeroIconAnimation";
+import { BsLaptop, BsPhone } from 'react-icons/bs';
+import { IoIosDesktop } from 'react-icons/io';
+import { motion } from 'framer-motion';
+import HeroIconAnimation from './HeroIconAnimation';
 
 const HeroSocialsIcons = () => {
   return (
@@ -49,7 +49,7 @@ const HeroSocialsIcons = () => {
           <div className="flex justify-content-evenly align-items-center mb-3">
             <HeroIconAnimation icon="express" x={-50} y={-250} scale={2} />
             <HeroIconAnimation icon="bootstrap" x={-160} y={-90} scale={3} />
-            <HeroIconAnimation icon="styled" x={-240} y={30} scale={3} />
+            <HeroIconAnimation icon="typescript" x={-240} y={30} scale={3} />
             <HeroIconAnimation icon="framer" x={-60} y={-290} scale={3} />
           </div>
           <motion.div
@@ -57,7 +57,7 @@ const HeroSocialsIcons = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 5, duration: 1 }}
             className="border-bottom-2 border-yellow-700 flex w-100 pt-4"
-          ></motion.div>{" "}
+          ></motion.div>{' '}
         </div>
       </motion.div>
       {/* MOBILE */}
@@ -116,7 +116,7 @@ const HeroSocialsIcons = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 5, duration: 1 }}
           className="border-bottom-2 border-yellow-700 flex w-100 pt-4"
-        ></motion.div>{" "}
+        ></motion.div>{' '}
       </motion.div>
       {/* DESKTOP */}
       <motion.div

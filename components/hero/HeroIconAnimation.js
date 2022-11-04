@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import {
   SiJavascript,
   SiReact,
@@ -8,7 +8,6 @@ import {
   SiCsharp,
   SiCss3,
   SiBootstrap,
-  SiStyledcomponents,
   SiExpress,
   SiNextdotjs,
   SiFirebase,
@@ -29,10 +28,11 @@ import {
   SiMysql,
   SiSqlite,
   SiRedux,
-} from "react-icons/si";
-import { BsLaptop, BsPhone, BsApple } from "react-icons/bs";
-import { IoIosDesktop } from "react-icons/io";
-import { DiAndroid } from "react-icons/di";
+  SiTypescript,
+} from 'react-icons/si';
+import { BsLaptop, BsPhone, BsApple } from 'react-icons/bs';
+import { IoIosDesktop } from 'react-icons/io';
+import { DiAndroid } from 'react-icons/di';
 
 const HeroIconAnimation = ({ icon, x, y, scale = 1, opacity = 0.1 }) => {
   return (
@@ -57,7 +57,7 @@ const icons = {
   csharp: <SiCsharp className="text-2xl" />,
   css3: <SiCss3 className="text-2xl" />,
   bootstrap: <SiBootstrap className="text-2xl" />,
-  styled: <SiStyledcomponents className="text-2xl" />,
+  typescript: <SiTypescript className="text-2xl" />,
   express: <SiExpress className="text-2xl" />,
   next: <SiNextdotjs className="text-2xl" />,
   firebase: <SiFirebase className="text-2xl" />,
