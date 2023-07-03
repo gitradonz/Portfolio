@@ -14,32 +14,36 @@ export const ContactResume = () => {
               <label htmlFor="name" className="font-medium">
                 Name
               </label>
-              <InputText id="name" className="py-3 px-2 text-lg" />
+              <InputText id="name" className="py-3 px-2 text-lg" disabled />
             </div>
             <div className="field">
-              <label htmlFor="email1" className="font-medium">
+              <label htmlFor="email1" className="font-medium" disabled>
                 Email
               </label>
-              <InputText id="email1" className="py-3 px-2 text-lg" />
+              <InputText id="email1" className="py-3 px-2 text-lg" disabled />
             </div>
             <div className="field">
-              <label htmlFor="company" className="font-medium">
+              <label htmlFor="company" className="font-medium" disabled>
                 Company
               </label>
-              <InputText id="company" className="py-3 px-2 text-lg" />
+              <InputText id="company" className="py-3 px-2 text-lg" disabled />
             </div>
             <div className="field">
               <label htmlFor="message" className="font-medium">
                 Message
               </label>
               <InputTextarea
+                disabled
                 id="message"
                 rows={6}
                 autoResize
                 className="py-3 px-2 text-lg"
               />
             </div>
-            <button className="bg-yellow-200 flex justify-content-center align-items-center text-xl hover:bg-yellow-300 transition-duration-300 cursor-pointer shadow-3 border-none border-round-xl py-2 px-4">
+            <button
+              disabled
+              className="bg-yellow-200 flex justify-content-center align-items-center text-xl hover:bg-yellow-300 transition-duration-300 cursor-pointer shadow-3 border-none border-round-xl py-2 px-4"
+            >
               <i className="pi pi-send mr-2" />
               Send Message
             </button>
